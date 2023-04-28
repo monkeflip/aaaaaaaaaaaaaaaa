@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Geostar&family=Purple+Purse&family=Roboto+Slab:wght@900&family=Tilt+Prism&display=swap');
+
+body{
+    background-color: black;
+    color: goldenrod;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.cabeça{
+    text-align: center;
+    padding: 10px;
+    color: darkorange;
+    }
+
+    .cabeça_menu_links{
+        font-size: 25px;
+        font-family: 'Roboto Slab', serif;
+        font-weight: 600;
+        color: darkorange;
+        text-decoration: none;
+    }
+
+    .cabeça_menu{
+        display: flex;
+        gap: 50px;
+        padding: 1% 0% 0% 40%;
+    }
+   
+    .pé2{
+        background-color: darkorange;
+        color:rgb(0, 0, 0);
+        text-align: center;
+        padding: 10px;
+        border: 20px;
+    }
+    
+    .links{
+        font-size: 30px;
+        color: lavender;
+        border: 3px double;
+        width: 250px;
+        text-align: center;
+        border-radius: 20px;
+        padding: 7px;
+        text-decoration: none;
+    }
+
+    .links:hover{
+        color: #b4b4b4;
+        font-size: 31px;
+    }
